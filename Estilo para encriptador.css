@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Silkscreen", cursive;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Silkscreen", cursive;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  border: solid aqua 1px;
+}
+
+.icono {
+  position: relative;
+  margin-left: 40px;
+}
+
+main {
+  width: 100%;
+  height: 90%;
+  background-image: url(Fondo\ de\ sitio\ web.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+}
+
+section {
+  width: 60%;
+  height: 100%;
+  background-color: black;
+  height: 200px;
+}
+
+.section1 {
+  width: 55%;
+  position: relative;
+  margin-top: 100px;
+  padding: 110px;
+  position: relative;
+  margin-left: 40px;
+  border: solid aqua;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.area {
+  width: 80%;
+  height: 70%;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  resize: none;
+  font-size: 25px;
+  border: solid aqua 5px;
+  background-color: black;
+  color: aqua;
+  border-radius: 1px;
+  text-align: center;
+}
+
+.parrafo {
+  margin-left: 70px;
+  margin-top: 10px;
+}
+.btn-encriptar {
+  border-radius: 6px;
+  background-color: aqua;
+  cursor: pointer;
+}
+
+.btn-encriptar:hover {
+  background-color: darkturquoise;
+}
+.btn-desencriptar {
+  border-radius: 6px;
+  background-color: aqua;
+  cursor: pointer;
+}
+
+.btn-desencriptar:hover {
+  background-color: darkturquoise;
+}
+.btn-encriptar,
+.btn-desencriptar {
+  width: 35%;
+  height: 50px;
+}
+.contenedor-botones {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.section2 {
+  width: 20%;
+  background-color: black;
+  border-radius: 20px;
+  margin-right: 20px;
+  border: 1px solid aqua;
+  height: 500px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.imagen {
+  width: 100%;
+  height: 60%;
+  border: solid 1px rgba(0, 255, 255, 0.846);
+  padding-top: 50px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.contenedor-h3 {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  color: aqua;
+}
+.contenedor-parrafo {
+  width: 100%;
+  position: relative;
+  margin-bottom: 100px;
+  height: 60px;
+  text-align: center;
+  color: aqua;
+}
+
+.contenedor-resultado {
+  width: 100%;
+  height: 70%;
+  padding: 25px;
+  box-sizing: border-box;
+  position: relative;
+  margin-left: 0px;
+  word-wrap: break-word;
+  display: block;
+}
+
+.texto-resultado {
+  background: black;
+  color: aqua;
+  resize: none;
+  outline: none;
+  width: 100%;
+  height: 70%;
+  text-align: center;
+}
+
+h3 {
+  color: aqua;
+  text-align: center;
+}
+
+p {
+  color: aqua;
+}
+.contenedor-copiar {
+  width: 100%;
+  height: 80%;
+  margin-top: 20px;
+}
+.btn-copiar {
+  width: 35%;
+  height: 40px;
+  display: block;
+  margin: auto;
+  background-color: aqua;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-copiar:hover {
+  background-color: darkturquoise;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  border: solid aqua 1px;
+  text-align: center;
+}
+
+.ocultar {
+  display: none;
+}
+
+
+@media(max-width: 1200px) {
+  .icono {
+    height: 40px;
+    margin-top: 5px;
+  }
+  main {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+  .section1 {
+    width: auto;
+    padding: 50px;
+    margin-top: 40px;
+    margin-right: 10%;
+    height: auto;
+    margin-left: 33px;
+  }
+  .area {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    height: 40%;
+    position: relative;
+  }
+
+  .parrafo{
+    width: auto;
+    font-size: xx-small;
+    text-align: center;
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+ 
+  .btn-encriptar, .btn-desencriptar {
+    width: 65%;
+    height: 50px;
+  }
+
+  .btn-encriptar{
+    margin-bottom: 20px;
+  }
+
+  .section2{
+    width: auto;
+    padding: 50px;
+    margin-top: 40px;
+    margin-right: 10%;
+    margin-left: 33px;
+    margin-bottom: 15px;
+    height: auto;
+    
+  }
+
+  h3{
+    text-align: center;
+    margin-top: 10px;
+  }
+ 
+  .texto-resultado{
+    text-align: center;
+    height: 350px;
+  }
+
+  .contenedor-copiar{
+    margin-top: 20px;
+  }
+
+}
+

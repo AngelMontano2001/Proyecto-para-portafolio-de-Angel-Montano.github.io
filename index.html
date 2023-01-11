@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width", initial-scale=1.0">
+    <link rel="stylesheet" href="Estilo para encriptador.css">
+    <title>Encriptador de Alura Challenger</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Silkscreen&display=swap"
+        rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+    </style>
+    
+</head>
+
+<body class="container">
+    <header>
+        <img class="icono" src="logo.png" alt="">
+    </header>
+    <main>
+
+
+
+        <section class="section1">
+            <textarea class="area" placeholder="Ingrese el texto aquí" rows="4"
+            cols="10"></textarea>
+            <div><p class="parrafo">Solo puedes usar letras minusculas no uses acentos</p></div>
+            <div class="contenedor-botones">
+                <input type="button" class="btn-encriptar" value="Encriptar">
+                <input type="button" class="btn-desencriptar" value="Desencriptar">
+            </div>
+        </section>
+
+
+
+        <section class="section2">
+            <div class="contenedor-de-imagen ">
+                <img class="imagen" src="Lupa.png" alt="imagen de para fondo">
+            </div>
+            <div class="contenedor-h3">
+                <h3>Ningún mensaje fue encontrado</h3>
+            </div>
+            <div class="contenedor-parrafo">
+                <p>Ingresa el texto que deseas encriptar o desencriptar.</p>
+            </div>
+            <textarea readonly class="texto-resultado" class="contenedor-resultado"> 
+            
+            </textarea>
+            <h3>Mensaje encriptado</h3>
+                <!--<p class="texto-resultado"></p>-->
+            <div class="contenedor-copiar">
+                <input type="button" class="btn-copiar" value="Copiar">
+                
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Proyecto para portafolio de Ángel Montano</p>
+    </footer>
+<script src="funcion.js"></script>
+
+</body>
+
+</html>
